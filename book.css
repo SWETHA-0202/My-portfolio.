@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #004737;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.bg-container-1 {
+    background-color: #004737;
+    background-size: cover;
+    height: 100vh;
+    text-align: left;
+}
+
+.bg-card {
+    background-color: #D4FFE8;
+    background-size: cover;
+    height: 90vh;
+    width: 40vw;
+    text-align: center;
+}
+
+.card {
+    background-color: #D4FFE8;
+    height: 30vh;
+    width: 30vw;
+    margin: 25px;
+}
+
+.image {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #D4FFE8;
+    color: #004737;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-1 {
+    background-color: #D4FFE8;
+    color: #004737;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.caurosal {
+    margin: auto;
+    border-radius: 10px;
+    width: 90vw;
+}
+
+.heading-1 {
+    color: #004737;
+    font-family: "Monospace";
+    padding: 5px;
+    font-size: 25px;
+}
+
+.heading {
+    color: #D4FFE8;
+    font-family: "Monospace";
+    padding: 8px;
+}
+
+.para {
+    font-family: "Monospace";
+    color: #D4FFE8;
+    font-size: 20px;
+    padding: 8px;
+}
