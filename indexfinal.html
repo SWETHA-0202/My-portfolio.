@@ -173,7 +173,33 @@
         AOS.init();
     </script>
 
+<!-- Theme Toggle Button -->
+<button id="theme-toggle" aria-label="Toggle Theme">
+  <i class="fas fa-sun"></i>
+</button>
 
+<script>
+  const toggleBtn = document.getElementById('theme-toggle');
+  const body = document.body;
+
+  // Default: Dark Mode
+  if (localStorage.getItem('theme') === 'light') {
+    body.classList.add('light-mode');
+    toggleBtn.innerHTML = '<i class="fas fa-moon"></i>'; // Moon = Switch to dark
+  } else {
+    body.classList.remove('light-mode'); // Dark mode default
+    toggleBtn.innerHTML = '<i class="fas fa-sun"></i>'; // Sun = Switch to light
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+    const isLight = body.classList.contains('light-mode');
+    toggleBtn.innerHTML = isLight 
+      ? '<i class="fas fa-moon"></i>' // In light mode → show moon
+      : '<i class="fas fa-sun"></i>';  // In dark mode → show sun
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+  });
+</script>
 
 </body>
 
